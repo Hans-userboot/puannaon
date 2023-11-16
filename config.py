@@ -13,13 +13,13 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "12749571"))
 API_HASH = os.environ.get("API_HASH", "eaae2f49b39e76e832d4921e00c21d1a")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001942557641"))
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://jnujsium:JwRYDLWg6THZdE93f0dRJrjXgnzIq-O2@satao.db.elephantsql.com/jnujsium")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001831821250"))
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://dxwcepih:acVPk2FPEEQ-ss6JZclWAazHbg2xHjn0@raja.db.elephantsql.com/dxwcepih")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001957259969"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001743620972"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001985224329"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
@@ -41,7 +41,7 @@ FORCE_MESSAGE = os.environ.get(
 )
 
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5178772086 5943200597 5437750170 2122230923").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1723017752 5303209303 5943200597 5178772086 2122230923").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
     
